@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  vehicle: one
+  engine_temp: 9.99
+  oil_pressure: 9.99
+  battery_voltage: 9.99
+  tire_pressure: 
+  diagnostic_codes: 
+  timestamp: 2025-11-20 10:49:06
+
+two:
+  vehicle: two
+  engine_temp: 9.99
+  oil_pressure: 9.99
+  battery_voltage: 9.99
+  tire_pressure: 
+  diagnostic_codes: 
+  timestamp: 2025-11-20 10:49:06

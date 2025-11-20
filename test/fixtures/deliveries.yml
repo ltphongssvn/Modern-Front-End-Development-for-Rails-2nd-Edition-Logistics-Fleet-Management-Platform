@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  tracking_number: MyString
+  route: one
+  status: MyString
+  pickup_time: 2025-11-20 10:42:59
+  delivery_time: 2025-11-20 10:42:59
+  recipient_name: MyString
+  recipient_signature: MyText
+  package_details: 
+
+two:
+  tracking_number: MyString
+  route: two
+  status: MyString
+  pickup_time: 2025-11-20 10:42:59
+  delivery_time: 2025-11-20 10:42:59
+  recipient_name: MyString
+  recipient_signature: MyText
+  package_details: 

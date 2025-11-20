@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  origin: 
+  destination: 
+  waypoints: 
+  distance: 9.99
+  estimated_duration: 1
+  status: MyString
+  driver: one
+  vehicle: one
+
+two:
+  name: MyString
+  origin: 
+  destination: 
+  waypoints: 
+  distance: 9.99
+  estimated_duration: 1
+  status: MyString
+  driver: two
+  vehicle: two

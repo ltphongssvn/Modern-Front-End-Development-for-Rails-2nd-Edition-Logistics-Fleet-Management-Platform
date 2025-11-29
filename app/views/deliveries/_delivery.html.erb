@@ -1,0 +1,8 @@
+<!-- app/views/deliveries/_delivery.html.erb -->
+<%= turbo_stream_from "deliveries" %>
+<div id="<%= dom_id(delivery) %>" class="p-4 border rounded mb-2">
+  <div class="flex justify-between">
+    <span class="font-bold"><%= delivery.tracking_number %></span>
+    <span class="px-2 py-1 bg-blue-100 rounded"><%= delivery.status %></span>
+  </div>
+</div>

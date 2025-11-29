@@ -13,7 +13,7 @@ Deliver MVP of Logistics Fleet Management Platform with real-time GPS tracking, 
 #### Day 1: Project Setup & Database Design (8 hours)
 - [x] Rails app initialization with React/TypeScript (2h)
 - [x] Configure PostgreSQL database (1h)
-- [ ] Design & implement core data models (3h)
+- [x] Design & implement core data models (3h)
   - [x] Vehicle model (0.5h)
   - [x] Driver model (0.5h)
   - [x] Route model (0.5h)
@@ -23,8 +23,8 @@ Deliver MVP of Logistics Fleet Management Platform with real-time GPS tracking, 
 - [x] Database migrations - [ ] Database migrations & seed data (2h) seed data (2h)
 
 #### Day 2: Authentication & Authorization (8 hours)
-- [ ] Devise setup for user authentication (2h)
-- [ ] Role-based access control implementation (3h)
+- [x] Devise setup for user authentication (2h)
+- [x] Role-based access control implementation (3h)
   - [ ] Admin role (1h)
   - [ ] Fleet manager role (1h)
   - [ ] Driver role (1h)
@@ -38,7 +38,7 @@ Deliver MVP of Logistics Fleet Management Platform with real-time GPS tracking, 
 - [ ] Compliance report generator (1h)
 
 #### Day 4: API Development (8 hours)
-- [ ] RESTful API controllers setup (2h)
+- [x] RESTful API controllers setup (2h)
 - [ ] GraphQL API setup for real-time data (3h)
 - [ ] API versioning implementation (1h)
 - [ ] API documentation with Swagger (2h)

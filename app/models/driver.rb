@@ -1,3 +1,4 @@
+# app/models/driver.rb
 class Driver < ApplicationRecord
-  belongs_to :current_vehicle
+  belongs_to :vehicle, optional: true
 end

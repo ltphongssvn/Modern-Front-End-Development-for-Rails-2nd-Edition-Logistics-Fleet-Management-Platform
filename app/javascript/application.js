@@ -1,13 +1,14 @@
 // app/javascript/application.js
 import "@hotwired/turbo-rails"
 import "./controllers"
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import * as React from 'react'
+import { createRoot } from 'react-dom/client'
 import Dashboard from './components/Dashboard'
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('turbo:load', () => {
   const root = document.getElementById('root')
-  if (root) {
-    ReactDOM.createRoot(root).render(<Dashboard />)
+  if (root && !root.dataset.reactApp) {
+    root.dataset.reactApp = 'true'
+    createRoot(root).render(React.createElement(Dashboard))
   }
 })
